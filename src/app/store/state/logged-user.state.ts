@@ -1,12 +1,13 @@
 import { LoggedUser } from '../../models/logged-user.interface';
 
-export interface ILoggedUserState {
+export interface LoggedUserState {
   loggedUser: LoggedUser;
 }
 
-export const initialUserState: ILoggedUserState = {
+export const initialLoggedUserState: LoggedUserState = {
   loggedUser: {
     name: 'Jim Morrison',
-    age: 75
+    age: 75,
+    budget: 0
   }
 };

@@ -1,1 +1,4 @@
-<app-home-greetings [greetings]="greetings"></app-home-greetings>
+<app-home-greetings
+  [greetings]="greetings"
+  [loggedUser]="loggedUser$ | async"
+></app-home-greetings>

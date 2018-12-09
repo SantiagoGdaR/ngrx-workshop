@@ -1,3 +1,8 @@
 <div style="text-align:center">
   <h1>{{ greetings }}</h1>
 </div>
+<div style="text-align:center" *ngIf="loggedUser">
+  <h3>Logged User Name: {{ loggedUser.name }}</h3>
+  <h3>Logged User Age: {{ loggedUser.age }}</h3>
+  <h3>Logged User Budget: {{ loggedUser.budget }}</h3>
+</div>

@@ -7,7 +7,7 @@ import { StoreDevtoolsModule } from '@ngrx/store-devtools';
 import { StoreRouterConnectingModule } from '@ngrx/router-store';
 
 import { AppComponent } from './app.component';
-import { reducers } from './store/reducers';
+import { reducers } from './store/reducers/app.reducer';
 import { environment } from '../environments/environment';
 import { AppEffects } from './store/effects/app.effects';
 import { HomeComponent } from './containers/home/home.component';
