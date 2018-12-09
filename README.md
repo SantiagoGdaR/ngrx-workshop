@@ -12,6 +12,19 @@ For each new step or angular ngrx feature to discuss, we are going to to have a 
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.1.2.
 
+## NGRX packages installation and initial set up
+
+branch name: `feature/installation-setup`
+
+In this branch we are going to install and setup NGRX.
+
+1 - install NGRX [schematics](https://ngrx.io/guide/schematics): `npm install @ngrx/schematics --save-dev`
+2 - install ngrx packages: `npm install @ngrx/{store,effects,entity,store-devtools} --save`
+3 - install router store: `npm install @ngrx/router-store --save`
+4 - generate the intial configuration with the ngrx schematics: `ng generate @ngrx/schematics:store State --root --module app.module.ts`
+5 - generate inital configuration for effects with ngrx schematics: `ng generate @ngrx/schematics:effect App --root --module app.module.ts`
+6 - change folder structure to work with a store folder containing all store related functionality
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
