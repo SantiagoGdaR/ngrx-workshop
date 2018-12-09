@@ -1,8 +1,8 @@
 import { ActionReducerMap } from '@ngrx/store';
 import { routerReducer } from '@ngrx/router-store';
 
-export interface State {}
+import { AppState } from '../state/app.state';
 
-export const reducers: ActionReducerMap<State> = {
+export const reducers: ActionReducerMap<AppState> = {
   router: routerReducer
 };
