@@ -38,10 +38,15 @@ In this branch we are going to install and setup NGRX.
 ## Creating our first NGRX simple flow [store, state, actions, reducers, selects]
 
 1 - let's simulate that we have the logged user info save in our state
+
 2 - creating our user state
+
 3 - creating our user actions
+
 4 - creating our user reducers
+
 5 - hooking everything together
+
 6 - let's change our home page to you our user information
 
 ## Development server
