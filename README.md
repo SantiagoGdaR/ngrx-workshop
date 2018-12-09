@@ -4,9 +4,13 @@ This clean angular cli repository is going to be our starting point for our angu
 For each new step or angular ngrx feature to discuss, we are going to to have a branch:
 
 1 - ngrx packages installation, initial set up
+
 2 - creating first ngrx simple flow [store, state, actions, reducers, selects]
+
 3 - creating a secong flow with effects [store, state actions, recducers, effects, selects]
+
 4 - small walk through of ngrx dev tools
+
 5 - example of unit testing our store
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.1.2.
