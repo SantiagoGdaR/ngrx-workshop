@@ -32,7 +32,7 @@ In this branch we are going to install and setup NGRX.
 3 - creating our user actions
 4 - creating our user reducers
 5 - hooking everything together
-6 - let's change our greeting message to you our user information
+6 - let's change our home page to you our user information
 
 ## Development server
 
