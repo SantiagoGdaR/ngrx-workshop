@@ -24,6 +24,7 @@ In this branch we are going to install and setup NGRX.
 4 - generate the intial configuration with the ngrx schematics: `ng generate @ngrx/schematics:store State --root --module app.module.ts`
 5 - generate inital configuration for effects with ngrx schematics: `ng generate @ngrx/schematics:effect App --root --module app.module.ts`
 6 - change folder structure to work with a store folder containing all store related functionality
+7 - additional changes to ngrx schematics set up and add router state and configuration
 
 ## Development server
 
