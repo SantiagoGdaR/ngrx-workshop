@@ -1,0 +1,6 @@
+<div *ngFor="let user of users">
+  <img [src]="user.avatar_url"/>
+  <span>
+    <b>Name:</b> {{ user.login }}
+  </span>
+</div>

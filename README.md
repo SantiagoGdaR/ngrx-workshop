@@ -49,6 +49,22 @@ In this branch we are going to install and setup NGRX.
 
 6 - let's change our home page to you our user information
 
+## Creating our second NGRX simple flow [store, state, actions, reducers, effects, selects]
+
+1 - let's create a service to get Github users info and a model to bind the reponse
+
+2 - creating our github state
+
+3 - creating our github actions
+
+4 - creating our github reducers
+
+5 - creating our github effects
+
+6 - creating our github selects
+
+7 - hooking everything together (container component, presentation component, routing, using github users ngrx flow)
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
