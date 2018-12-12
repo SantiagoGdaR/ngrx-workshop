@@ -67,6 +67,10 @@ In this branch we are going to install and setup NGRX.
 
 7 - hooking everything together (container component, presentation component, routing, using github users ngrx flow)
 
+## NGRX testing
+
+1 - testing a component using the store
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
