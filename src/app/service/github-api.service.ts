@@ -18,6 +18,6 @@ export class GithubApiService {
   }
 
   getUsers(): Observable<GithubUser[]> {
-    return this.http.get<any>(this.apiServer, { headers: this.headers });
+    return this.http.get<GithubUser[]>(this.apiServer, { headers: this.headers });
   }
 }
