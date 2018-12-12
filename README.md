@@ -49,7 +49,7 @@ In this branch we are going to install and setup NGRX.
 
 6 - hooking everything together
 
-6 - let's change our home page to you our user information
+7 - let's change our home page to you our user information
 
 ## Creating our second NGRX simple flow [store, state, actions, reducers, effects, selects]
 
