@@ -45,7 +45,9 @@ In this branch we are going to install and setup NGRX.
 
 4 - creating our user reducers
 
-5 - hooking everything together
+5 - creating our user select
+
+6 - hooking everything together
 
 6 - let's change our home page to you our user information
 
